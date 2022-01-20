@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Username from './Username.js';
 
 function App() {
   return (
     <div className="App">
+      <Username name="Matt" disallowedNames={["Matt"]}/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
